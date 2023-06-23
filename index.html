@@ -14,13 +14,12 @@
         <h6>Select Canvas Style</h6>
         <button id="popup" class="btn btn-danger">Select</button>
     </div>
-    <div class="board">
-
-    </div>
+    <p id="message"></p>
+    <div class="board"></div>
     <div class="footer">
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-warning">Random</button>
-        <button class="btn btn-primary">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-warning" onclick="setColor('random')">Random</button>
+        <button class="btn btn-primary" onclick="resetBoard()">Reset</button>
     </div>
     <script src="./js/script.js"></script>
 </body>
